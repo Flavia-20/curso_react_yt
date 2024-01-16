@@ -1,3 +1,5 @@
+/*Estilo para o arquivo Frase.js*/
+/*O react nãõ aceita "-" no nome das classes */
 .fraseContainer {
   background-color: #333;
   border-bottom: 3px solid #111;

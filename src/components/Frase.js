@@ -1,4 +1,4 @@
-import styles from "./Frase.module.css";
+import styles from "./Frase.module.css";//para importar o stilo
 
 function Frase() {
   return (
@@ -7,5 +7,5 @@ function Frase() {
     </div>
   );
 }
-
+/*em react não usa-se class como no HTML e css normal porque aqui Class é uma palavra reservada, então usamos className */
 export default Frase;
