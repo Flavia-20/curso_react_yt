@@ -10,5 +10,9 @@ function Evento() {
     </div>
   )
 }
+/* Eventos em react são os mesmos do DOM;
+O evento é atrelado a uma tag que vai executar ele;
+Geralmente um método é atribuido a ele; 
+podendo esse método ser criado no componente*/
 
 export default Evento

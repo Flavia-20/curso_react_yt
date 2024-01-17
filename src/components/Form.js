@@ -1,4 +1,5 @@
 function Form() {
+  /*a function vem fora do return */
   function cadastrarUsuario(e) {
     e.preventDefault()
     console.log('Usuário cadastrado!')
