@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from './eventos/Button'
 
 import styles from './Evento.module.css'
 

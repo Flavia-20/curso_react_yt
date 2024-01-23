@@ -4,12 +4,12 @@ function Condicional() {
   const [email, setEmail] = useState()
   const [userEmail, setUserEmail] = useState()
 
-  function enviarEmail() {
+  function enviarEmail() {//no imput é digitado o email, ativa esse função e mdifica no que for guardado na linha 21
     setUserEmail(email)
   }
 
   function limparEmail() {
-    setUserEmail('')
+    setUserEmail('')//aqui é gerado um false, não vaia aprecer nada na tela
   }
 
   return (
@@ -21,7 +21,9 @@ function Condicional() {
         onChange={(e) => setEmail(e.target.value)}
       />
       <button onClick={enviarEmail}>Enviar e-mail</button>
-      {userEmail && (
+
+{/*{userEmail &&  é o IF do react */}
+      {userEmail && (//aqui quer dize: se o UseState ofr preenchido deve aparecer um botão para lipar o email
         <div>
           <p>O email do usuário é: {userEmail}</p>
           <button onClick={limparEmail}>Limpar Email</button>
